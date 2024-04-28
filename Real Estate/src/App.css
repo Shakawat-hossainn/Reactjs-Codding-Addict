@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    font-family: "Rubik", sans-serif;
+ 
+    
+}
+.img-container {
+    background-image: url(./Images/Bg.jpg);
+    /* Adjust the height and width as needed */
+    height: 80vh; /* 100% of the viewport height */
+    width: 100%; /* 100% of the parent container's width */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    margin-top: 20px;
+   
+}
+
+.navbar {
+ position:absolute;
+  top: 0;
+  width: 100%;
+  z-index: 10; /* Ensure Navbar is above other content */
+}
+
+.hero {
+  margin-top:47px /* Add the height of your Navbar here */;
+  z-index: 1; /* Ensure Hero is below Navbar */
+}
+.heads{
+    font-family: "Rubik", sans-serif;
+}
+.dropdown{
+    z-index: 20;
+}
+/* .imgProp{
+    background-image: url(./Images/JanPeter.jpg);
+    height: 80vh; 
+    width: 20vw; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover;
+    margin-top: 20px;
+} */
+.propContainer{
+    position: relative;
+    height: 52vh;
+    width: 20vw;
+    border: 2px ;
+    background-color: white;
+
+}
+/* App.css */
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the components horizontally */
+    padding-top: 2rem; /* Adjust as needed */
+  }
+  
+  /* Add any other necessary styles */
+  
